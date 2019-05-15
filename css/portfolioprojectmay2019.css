@@ -1,0 +1,159 @@
+.red{
+    border: 1px solid red;
+}
+body{
+    font-family: 'Shadows Into Light';
+    background: paleturquoise;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    overflow-x: hidden;
+}
+#navbar{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background: paleturquoise;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+.nav-links{
+    padding-right: 150px;
+}
+#navbar a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+
+}
+#welcome-section{
+    height: 100vh;
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+.welcome-section::after {
+    content: "";
+    background: url('../images/stained-red-pool-texture-bottom-65553.jpg');
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+h1{
+    text-transform: uppercase;
+    font-size: 5em;
+    line-height: .5em;
+    font-weight: bolder;
+}
+.middle{
+    color: #000000;
+    font-weight: bold;
+}
+.middle p{
+    font-size: 2em;
+}
+.work{
+    background: rgb(237, 252, 250);
+    padding-top: 40px;
+}
+.work h2{
+    font-size: 2em;
+    font-weight: bold; 
+}
+.profile-link{
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(3, 206, 209);
+    border-radius: 5px;
+    height: 220px;
+    width: 280px;
+    margin: 40px 100px;
+    display: inline-block;
+    overflow: hidden;
+}
+.project-pic{
+    height: 180px;
+    width: 100%;
+    border-bottom: 2px solid rgb(3, 206, 209);
+}
+h3{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1em;
+}
+#contact{
+    padding: 40px;
+}
+.contact p{
+    font-size: 1.5em;
+    line-height: 0.5em;
+}
+.contact{
+    display: block;
+    position: relative;
+    border: 1px solid paleturquoise;
+}
+.contact::after {
+    content: "";
+    background: url('../images/stripes.jpg');
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+.contactmiddle{
+    display: flex;
+    justify-content: center;
+}
+.contactlinks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contactlink{
+    border: 5px solid rgb(3, 206, 209);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 40px 20px;
+    line-height: 100px;
+}
+.contactlink a{
+    text-decoration: none;
+    color: black;
+}
+.myimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myimage img{
+    max-width: 19vw;
+    border: 10px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    background-color: rgb(3, 206, 209);
+    bottom: 0px;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Source Sans Pro"
+}
+/*@media screen and (min-height: 40em){
+    .contact-links{
+        flex-direction: column;
+    }
+}*/
