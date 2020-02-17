@@ -9,7 +9,9 @@
     
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    
 </head>
+
 <body>
     <div id="navbar">
         <div class="nav-links">
@@ -82,9 +84,6 @@
                         <a target="_blank" href="https://www.linkedin.com/in/elin-hallengren-b62a4790/"> LinkedIn</a>
                     </div>
                     <div class="contactlink">
-                            <a href="#"> Email</a>
-                    </div>
-                    <div class="contactlink">
                         <a href="https://github.com/ElinHallengren"> Github</a>
                 </div>
                 </div>
@@ -93,8 +92,12 @@
     </section>
     <footer>
         <div>
-            <p>This was all done by me, put together in May 2019</p>
+            &copy; <span id="year"></span> by Elin Hallengren
         </div>
     </footer>
 </body>
 </html>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
